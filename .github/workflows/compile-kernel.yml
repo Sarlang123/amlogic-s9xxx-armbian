@@ -59,7 +59,7 @@ on:
       kernel_config:
         description: "/compile-kernel/tools/config/config-6.1"
         required: true
-        default: ""
+        default: "/compile-kernel/tools/config/config-6.1"
 
 env:
   TZ: America/New_York
