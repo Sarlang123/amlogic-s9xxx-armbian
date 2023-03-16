@@ -57,8 +57,8 @@ on:
         required: false
         default: "-ophub"
       kernel_config:
-        description: "Set the path of kernel .config"
-        required: false
+        description: "/compile-kernel/tools/config/config-6.1"
+        required: true
         default: ""
 
 env:
